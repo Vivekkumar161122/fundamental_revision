@@ -2,13 +2,10 @@
 ''' Take the radius (r) as user input and convert it to a float '''
 radius_str = input("Enter the radius of the circle: ")
 r = float(radius_str)
-
 ''' Define the value of Pi '''
 pi = 3.14
-
 ''' Calculate the area using the formula: Area = pi * (rsquared)'''
 area = pi * (r ** 2)
-
 ''' Print the calculated area'''
 print(f"The area of the circle with the radius {r}is: {area}")
 
@@ -20,9 +17,7 @@ print(f"The area of the circle with the radius {r}is: {area}")
 P = float(input("Enter the Principal amount (P): "))
 R = float(input("Enter the rate of interest (R): "))
 T = float(input("Enter the time period in years(T): "))
-
 ''' Calculate Simple Interest '''
 SI = (P * R * T) / 100
-
 ''' Printing the result '''
 print(f" The Simple Interest (SI) is: {SI}")
