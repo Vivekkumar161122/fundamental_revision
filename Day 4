@@ -10,7 +10,7 @@ pi = 3.14
 area = pi * (r ** 2)
 
 ''' Print the calculated area'''
-print(f"The area of the circle wit the radius {r}is: {area}")
+print(f"The area of the circle with the radius {r}is: {area}")
 
 # Key concept
 ''' float(radius_str): We convert the input into a float so the program can handle radius values with decimals (like 5.5) '''
