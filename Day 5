@@ -6,3 +6,10 @@ if age >= 18:
 else:
     print("you cannot vote")
     print("you cannot drive")
+
+class Person:
+    def __init__(self):
+        pass
+#dunder names
+if __name__=="__main__":
+    print("Python")
