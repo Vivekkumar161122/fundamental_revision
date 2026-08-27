@@ -34,3 +34,21 @@ cube = num ** 3
 
 print(f"Square: {square}")
 print(f"Cube: {cube}")
+
+# Minutes ko hours + remaining minutes mein convert
+total_minutes = int(input("Enter total minutes: "))
+
+hours = total_minutes // 60
+minutes = total_minutes % 60
+
+print(f"{hours} Hours and {minutes} Minutes")
+
+# Seconds ko hours, minutes aur seconds mein convert 
+total_seconds = int(input("Enter total seconds: "))
+
+hours = total_seconds // 3600
+remaining_sec = total_seconds % 3600
+minutes = remaining_sec // 60
+seconds = remaining_sec % 60
+
+print(f"{hours} Hours, {minutes} Minutes, {seconds} Seconds")
