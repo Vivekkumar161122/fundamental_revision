@@ -1,0 +1,4 @@
+#String
+''' p is 0, y is 1, t is 2, h is 3, o is 4 and n is 5 '''
+word = "python"
+print(word[2])
