@@ -18,3 +18,5 @@ print(y)
 import math
 x = math.pi
 print(x)
+
+print(max(5, 10, 25))
