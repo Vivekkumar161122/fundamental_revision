@@ -1,0 +1,13 @@
+'''Find all duplicates elements in a list alongwith their frequencies. '''
+lst = [1, 2, 3, 2, 4, 5, 3, 2, 6, 5]
+feq = {}
+
+for i in lst:
+    if i in feq:
+        feq[i] += 1  # Fixed: needs reassignment
+    else:
+        feq[i] = 1
+
+for key in feq:
+    if feq[key] > 1:
+        print(key, ";", feq[key])
